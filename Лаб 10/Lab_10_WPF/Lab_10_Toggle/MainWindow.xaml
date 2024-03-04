@@ -1,0 +1,29 @@
+﻿<Window x:Class="Lab_10_Toggle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_10_Toggle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Viewbox Grid.Column="0">
+            <local:UserControl1 />
+        </Viewbox>
+
+        <Viewbox Grid.Column="1">
+            <local:UserControl1 />
+        </Viewbox>
+
+        <Viewbox Grid.Column="2">
+            <local:UserControl1 />
+        </Viewbox>
+
+    </Grid>
+</Window>

@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kmaki\\\u0427\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u041B\u0430\u0431 6\\Lab_6_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B404F3E3-697D-411D-9C38-FBD3278AB1B9}|Lab_6_WPF\\Lab_6_WPF.csproj|c:\\users\\kmaki\\\u0447\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u043B\u0430\u0431 6\\lab_6_wpf\\lab_6_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B404F3E3-697D-411D-9C38-FBD3278AB1B9}|Lab_6_WPF\\Lab_6_WPF.csproj|solutionrelative:lab_6_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B404F3E3-697D-411D-9C38-FBD3278AB1B9}|Lab_6_WPF\\Lab_6_WPF.csproj|c:\\users\\kmaki\\\u0447\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0442\u0440\u043F\u043E\\\u043B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u043B\u0430\u0431 6\\lab_6_wpf\\lab_6_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B404F3E3-697D-411D-9C38-FBD3278AB1B9}|Lab_6_WPF\\Lab_6_WPF.csproj|solutionrelative:lab_6_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kmaki\\\u0427\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u041B\u0430\u0431 6\\Lab_6_WPF\\Lab_6_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Lab_6_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\kmaki\\\u0427\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u041B\u0430\u0431 6\\Lab_6_WPF\\Lab_6_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Lab_6_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswA4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-25T16:44:14.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\kmaki\\\u0427\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u041B\u0430\u0431 6\\Lab_6_WPF\\Lab_6_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lab_6_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\kmaki\\\u0427\u0442\u043E-\u0442\u043E \u043F\u043E \u0443\u0447\u0451\u0431\u0435\\\u0422\u0420\u041F\u041E\\\u041B\u0430\u0431\u043E\u0440\u0430\u0442\u043E\u0440\u043D\u044B\u0435 \u0440\u0430\u0431\u043E\u0442\u044B\\\u041B\u0430\u0431 6\\Lab_6_WPF\\Lab_6_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "Lab_6_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-25T16:30:55.476Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+﻿<Window x:Class="Lab_8_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_8_WPF"
+        mc:Ignorable="d"
+        Title="Текстовый редактор" Height="450" Width="800">
+    <Canvas>
+        <WrapPanel Width="200" Canvas.Top="200" Canvas.Left="15" x:Name="Wrap_1">
+            <Button Margin="2">Копировать</Button>
+            <Button Margin="2">Вырезать</Button>
+            <Button Margin="2">Вставить</Button>
+            <ListBox Width="190" Height="100" Margin="3 10">
+                <ListBoxItem Content="RenderTransform.Angle"/>
+                <ListBoxItem Content="RenderTransform.AngleX"/>
+                <ListBoxItem Content="RenderTransform.AngleY"/>
+                <ListBoxItem Content="RenderTransform.CenterX"/>
+                <ListBoxItem Content="RenderTransform.CenterY"/>
+                <ListBoxItem Content="RenderTransform.X"/>
+                <ListBoxItem Content="RenderTransform.Y"/>
+                <ListBoxItem Content="RenderTransform.ScaleX"/>
+                <ListBoxItem Content="RenderTransform.ScaleY"/>
+            </ListBox>
+
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <SkewTransform x:Name="Wrap_Skew1"  AngleX="8" AngleY="15"/>
+                    <ScaleTransform x:Name="Wrap_Scale1" ScaleX="0.6" ScaleY="0.65"/>
+                    <TranslateTransform x:Name="Wrap_Translate1"/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+
+            <WrapPanel.Triggers>
+                <EventTrigger RoutedEvent="GotFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew1" Storyboard.TargetProperty="AngleX"  To="0" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew1" Storyboard.TargetProperty="AngleY"  To="0"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale1" Storyboard.TargetProperty="ScaleX"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale1" Storyboard.TargetProperty="ScaleY"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate1" Storyboard.TargetProperty="X"  To="250"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate1" Storyboard.TargetProperty="Y"  To="-170"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+
+                <EventTrigger RoutedEvent="LostFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew1" Storyboard.TargetProperty="AngleX"  To="8" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew1" Storyboard.TargetProperty="AngleY"  To="15"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale1" Storyboard.TargetProperty="ScaleX"  To="0.6"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale1" Storyboard.TargetProperty="ScaleY"  To="0.65"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate1" Storyboard.TargetProperty="X"  To="0"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate1" Storyboard.TargetProperty="Y"  To="0"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </WrapPanel.Triggers>
+        </WrapPanel>
+
+        <WrapPanel Width="200" Canvas.Top="245" Canvas.Left="160">
+            <Button Margin="2">Копировать</Button>
+            <Button Margin="2">Вырезать</Button>
+            <Button Margin="2">Вставить</Button>
+            <ListBox Width="190" Height="100" Margin="3 10">
+                <ListBoxItem Content="RenderTransform.Angle"/>
+                <ListBoxItem Content="RenderTransform.AngleX"/>
+                <ListBoxItem Content="RenderTransform.AngleY"/>
+                <ListBoxItem Content="RenderTransform.CenterX"/>
+                <ListBoxItem Content="RenderTransform.CenterY"/>
+                <ListBoxItem Content="RenderTransform.X"/>
+                <ListBoxItem Content="RenderTransform.Y"/>
+                <ListBoxItem Content="RenderTransform.ScaleX"/>
+                <ListBoxItem Content="RenderTransform.ScaleY"/>
+            </ListBox>
+
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <SkewTransform  x:Name="Wrap_Skew2" AngleX="5" AngleY="15"/>
+                    <ScaleTransform x:Name="Wrap_Scale2" ScaleX="0.6" ScaleY="0.65"/>
+                    <TranslateTransform  x:Name="Wrap_Translate2"/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+
+            <WrapPanel.Triggers>
+                <EventTrigger RoutedEvent="GotFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew2" Storyboard.TargetProperty="AngleX"  To="0" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew2" Storyboard.TargetProperty="AngleY"  To="0"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale2" Storyboard.TargetProperty="ScaleX"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale2" Storyboard.TargetProperty="ScaleY"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate2" Storyboard.TargetProperty="X"  To="105"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate2" Storyboard.TargetProperty="Y"  To="-200"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+
+                <EventTrigger RoutedEvent="LostFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew2" Storyboard.TargetProperty="AngleX"  To="5" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew2" Storyboard.TargetProperty="AngleY"  To="15"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale2" Storyboard.TargetProperty="ScaleX"  To="0.6"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale2" Storyboard.TargetProperty="ScaleY"  To="0.65"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate2" Storyboard.TargetProperty="X"  To="0"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate2" Storyboard.TargetProperty="Y"  To="0"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </WrapPanel.Triggers>
+        </WrapPanel>
+
+        <WrapPanel Width="200" Canvas.Top="280" Canvas.Left="300">
+            <Button Margin="2">Копировать</Button>
+            <Button Margin="2">Вырезать</Button>
+            <Button Margin="2">Вставить</Button>
+            <ListBox Width="190" Height="100" Margin="3 10">
+                <ListBoxItem Content="RenderTransform.Angle"/>
+                <ListBoxItem Content="RenderTransform.AngleX"/>
+                <ListBoxItem Content="RenderTransform.AngleY"/>
+                <ListBoxItem Content="RenderTransform.CenterX"/>
+                <ListBoxItem Content="RenderTransform.CenterY"/>
+                <ListBoxItem Content="RenderTransform.X"/>
+                <ListBoxItem Content="RenderTransform.Y"/>
+                <ListBoxItem Content="RenderTransform.ScaleX"/>
+                <ListBoxItem Content="RenderTransform.ScaleY"/>
+            </ListBox>
+
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform x:Name="Wrap_Scale3"  ScaleX="0.7" ScaleY="0.65"/>
+                    <TranslateTransform  x:Name="Wrap_Translate3"/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+
+            <WrapPanel.Triggers>
+                <EventTrigger RoutedEvent="GotFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale3" Storyboard.TargetProperty="ScaleX"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale3" Storyboard.TargetProperty="ScaleY"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate3" Storyboard.TargetProperty="X"  To="-50"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate3" Storyboard.TargetProperty="Y"  To="-260"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+
+                <EventTrigger RoutedEvent="LostFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale3" Storyboard.TargetProperty="ScaleX"  To="0.7"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale3" Storyboard.TargetProperty="ScaleY"  To="0.65"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate3" Storyboard.TargetProperty="X"  To="0"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate3" Storyboard.TargetProperty="Y"  To="0"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </WrapPanel.Triggers>
+        </WrapPanel>
+
+        <WrapPanel Width="200" Canvas.Top="280" Canvas.Left="455">
+            <Button Margin="2">Копировать</Button>
+            <Button Margin="2">Вырезать</Button>
+            <Button Margin="2">Вставить</Button>
+            <ListBox Width="190" Height="100" Margin="3 10">
+                <ListBoxItem Content="RenderTransform.Angle"/>
+                <ListBoxItem Content="RenderTransform.AngleX"/>
+                <ListBoxItem Content="RenderTransform.AngleY"/>
+                <ListBoxItem Content="RenderTransform.CenterX"/>
+                <ListBoxItem Content="RenderTransform.CenterY"/>
+                <ListBoxItem Content="RenderTransform.X"/>
+                <ListBoxItem Content="RenderTransform.Y"/>
+                <ListBoxItem Content="RenderTransform.ScaleX"/>
+                <ListBoxItem Content="RenderTransform.ScaleY"/>
+            </ListBox>
+
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <SkewTransform x:Name="Wrap_Skew4" AngleX="5" AngleY="-15"/>
+                    <ScaleTransform x:Name="Wrap_Scale4" ScaleX="0.6" ScaleY="0.65"/>
+                    <TranslateTransform  x:Name="Wrap_Translate4"/>
+                </TransformGroup>
+            </WrapPanel.RenderTransform>
+
+            <WrapPanel.Triggers>
+                <EventTrigger RoutedEvent="GotFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew4" Storyboard.TargetProperty="AngleX"  To="0" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew4" Storyboard.TargetProperty="AngleY"  To="0"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale4" Storyboard.TargetProperty="ScaleX"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale4" Storyboard.TargetProperty="ScaleY"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate4" Storyboard.TargetProperty="X"  To="-170"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate4" Storyboard.TargetProperty="Y"  To="-230"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+
+                <EventTrigger RoutedEvent="LostFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew4" Storyboard.TargetProperty="AngleX"  To="5" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew4" Storyboard.TargetProperty="AngleY"  To="-15"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale4" Storyboard.TargetProperty="ScaleX"  To="0.6"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale4" Storyboard.TargetProperty="ScaleY"  To="0.65"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate4" Storyboard.TargetProperty="X"  To="0"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate4" Storyboard.TargetProperty="Y"  To="0"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </WrapPanel.Triggers>
+        </WrapPanel>
+        
+        <WrapPanel Width="200" Canvas.Top="240" Canvas.Left="600">
+            <Button Margin="2">Копировать</Button>
+            <Button Margin="2">Вырезать</Button>
+            <Button Margin="2">Вставить</Button>
+            <ListBox Width="190" Height="100" Margin="3 10">
+                <ListBoxItem Content="RenderTransform.Angle"/>
+                <ListBoxItem Content="RenderTransform.AngleX"/>
+                <ListBoxItem Content="RenderTransform.AngleY"/>
+                <ListBoxItem Content="RenderTransform.CenterX"/>
+                <ListBoxItem Content="RenderTransform.CenterY"/>
+                <ListBoxItem Content="RenderTransform.X"/>
+                <ListBoxItem Content="RenderTransform.Y"/>
+                <ListBoxItem Content="RenderTransform.ScaleX"/>
+                <ListBoxItem Content="RenderTransform.ScaleY"/>
+            </ListBox>
+
+            <WrapPanel.RenderTransform>
+                <TransformGroup>
+                    <SkewTransform x:Name="Wrap_Skew5" AngleX="8" AngleY="-15"/>
+                    <ScaleTransform x:Name="Wrap_Scale5" ScaleX="0.6" ScaleY="0.65"/>
+                    <TranslateTransform x:Name="Wrap_Translate5" />
+                </TransformGroup>
+
+            </WrapPanel.RenderTransform>
+
+            <WrapPanel.Triggers>
+                <EventTrigger RoutedEvent="GotFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew5" Storyboard.TargetProperty="AngleX"  To="0" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew5" Storyboard.TargetProperty="AngleY"  To="0"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale5" Storyboard.TargetProperty="ScaleX"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale5" Storyboard.TargetProperty="ScaleY"  To="1"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate5" Storyboard.TargetProperty="X"  To="-310"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate5" Storyboard.TargetProperty="Y"  To="-190"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+
+                <EventTrigger RoutedEvent="LostFocus">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew5" Storyboard.TargetProperty="AngleX"  To="8" Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Skew5" Storyboard.TargetProperty="AngleY"  To="-15"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale5" Storyboard.TargetProperty="ScaleX"  To="0.6"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Scale5" Storyboard.TargetProperty="ScaleY"  To="0.65"  Duration="0:0:2"/>
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate5" Storyboard.TargetProperty="X"  To="0"  Duration="0:0:2" />
+                            <DoubleAnimation Storyboard.TargetName="Wrap_Translate5" Storyboard.TargetProperty="Y"  To="0"  Duration="0:0:2" />
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </WrapPanel.Triggers>
+        </WrapPanel>
+    </Canvas>
+</Window>

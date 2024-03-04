@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Lab_9_WPF/1.0.0": {
+        "runtime": {
+          "Lab_9_WPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab_9_WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

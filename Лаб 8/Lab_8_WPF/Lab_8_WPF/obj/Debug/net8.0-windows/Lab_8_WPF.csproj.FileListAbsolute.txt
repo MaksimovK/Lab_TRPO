@@ -1,0 +1,40 @@
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.exe
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.deps.json
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.runtimeconfig.json
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.pdb
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF_MarkupCompile.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF_MarkupCompile.lref
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.g.resources
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.AssemblyInfoInputs.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.AssemblyInfo.cs
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.csproj.CoreCompileInputs.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\refint\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.pdb
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.genruntimeconfig.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\ref\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.exe
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.deps.json
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.runtimeconfig.json
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\bin\Debug\net8.0-windows\Lab_8_WPF.pdb
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF_MarkupCompile.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF_MarkupCompile.lref
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.g.resources
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.AssemblyInfoInputs.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.AssemblyInfo.cs
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.csproj.CoreCompileInputs.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\refint\Lab_8_WPF.dll
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.pdb
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\Lab_8_WPF.genruntimeconfig.cache
+C:\Users\kmaki\Что-то по учёбе\ТРПО\Лабораторные работы\Лаб 8 не закончена\Lab_8_WPF\Lab_8_WPF\obj\Debug\net8.0-windows\ref\Lab_8_WPF.dll
